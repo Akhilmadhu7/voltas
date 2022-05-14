@@ -1,0 +1,538 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#head{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+#head1{
+    width: 100%;
+    height: 30px;
+
+}
+
+.head1-image{
+    width: 120px;
+    height: 60px;
+    margin-left: 90%;
+}
+
+
+
+#head2{
+
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    
+}
+
+
+#head2 img{
+    width: 88px;
+    height: 15px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+
+#head2 button{
+    width: 120px;
+    height: 30px;
+    background-color: #428bca;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    color: white;
+    margin-left: 30px;
+    
+}
+
+#head2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 95%;
+    color: rgb(101, 102, 104);
+}
+
+#head2 i, #head2 p{
+    padding-left: 35px;
+    padding-top: 10px;
+}
+
+#head2 i{
+    color: #a1a3a5;
+}
+
+#head2 button, #head2 i, #head2 p, #head2 button :hover{
+    cursor: pointer;
+}
+
+.centre-part{
+    width: 100%;
+    height: 1680px;
+    background-color: white
+}
+
+#part-1,#part-1 img{
+    width: 100%;
+    height: 600px;
+
+} 
+
+#part-2{
+    text-align: center;
+    width: 100%;
+    height: 90px;
+    background-color: white;
+}
+
+#part-2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding-top: 45px;
+    color: rgb(101, 102, 104);
+
+}
+
+.part-3, .part-4, .part-5{
+    width: 100%;
+    height: 330px;
+    display: flex;
+}
+
+.images-1, .images-2{
+    width: 50%;
+    height: 330px;
+}
+
+.images-1 img{
+    width: 97%;
+    height: 320px;
+    padding-left: 13px;
+
+}
+
+.images-2 img{
+    width: 97%;
+    height: 320px;
+}
+
+.images-3, .images-4{
+    width: 50%;
+    height: 330px;
+}
+
+.images-3 img{
+    width: 97%;
+    height: 320px;
+    padding-left: 13px;
+}
+
+.images-4 img{
+    width: 97%;
+    height: 320px;
+}
+
+.images-5{
+    width: 50%;
+    height: 330px;
+}
+
+#section-1{
+    width: 97%;
+    height: 320px;
+    margin-left: 13px;
+    background-color: #ddecf9;
+}
+
+.images-5 p{
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    padding-top: 80px;
+    text-align: center;
+    color: #707172;
+}
+
+#img-5{
+    width: 140px;
+    height: 80px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+#img-5 img{
+    width: 140px;
+    height: 80px;
+}
+
+
+.images-5 h6{
+    font-size: medium;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    color: #707172;
+}
+
+.images-6{
+    width: 50%;
+    height: 330px;
+    
+}
+
+#section-2{
+    width: 97%;
+    height: 320px;
+    background-color: #b4d5f1
+}
+
+.images-6 p{
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    padding-top: 80px;
+    text-align: center;
+    color: #707172;
+}
+
+#img-6 img{
+    width: 140px;
+    height: 80px;
+}
+
+#img-6{
+    width: 140px;
+    height: 80px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.images-6 h6{
+    font-size: medium;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    color: #707172;
+}
+
+.end-block{
+    width: 100%;
+    height: 600px;
+}
+
+#block-1{
+    width: 100%;
+    height: 400px;
+    background-image: url(webimages/16.jpg);
+    background-size: cover;
+    
+}
+
+#block-1 h4{
+    padding-left: 530px;
+    padding-top: 240px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+
+}
+
+.buttons{
+    width: 650px;
+    height: 50px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+#button-1{
+    width: 225px;
+    height: 50px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: white;
+    color: #707172;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    letter-spacing: 3px;
+    
+}
+
+#button-2{
+    width: 225px;
+    height: 50px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+#button-3{
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #1d52b3;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    letter-spacing: 3px;
+}
+
+#button-1 select{
+    border: none;
+}
+
+#button-2 select{
+    border: none;
+}
+
+.block-2{
+    width: 100%;
+    height: 200px;
+}
+
+.block-2 p{
+    padding-top: 40px;
+    padding-left: 30px;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #707172;
+}
+
+.footer{
+    width: 100%;
+    height: 620px;
+    border-top: 1px solid rgb(207, 205, 205);
+}
+
+#foot-1{
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid rgb(207, 205, 205);
+    display: flex;
+}
+
+.ft-section1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 120px;
+    background-color: rgb(243, 242, 243);
+
+}
+
+.ft1-text{
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+}
+
+.ft1-text h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10px;
+    color: #626364;
+
+}
+
+.ft1-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #707172;
+
+}
+
+.ft1-btn{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+
+}
+
+.ft1-btn button{
+    width: 200px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #707172;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+
+}
+.ft-section2{
+    width: 50%;
+    height: 120px;
+    background-color: rgb(243, 242, 243);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ft2-text{
+    width: 190px;
+    height: 60px;
+    margin-top: 45px;
+    
+}
+
+.ft2-text h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: #626364;
+}
+
+.ft2-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: #707172;
+
+}
+
+.ft2-logo{
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    
+}
+
+.ft2-logo i{
+    color: #626364;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: large;
+}
+
+.ft2-logo :hover{
+    cursor: pointer;
+}
+
+#foot-2{
+    width: 100%;
+    height: 430px;
+    display: flex;
+    background-color: rgb(243, 242, 243);
+}
+
+.list1, .list2, .list3, .list4{
+    width: 25%;
+    height: 430px;
+    margin-top: 60px;
+}
+
+.list1-image{
+    width: 110px;
+    height: 33px;
+}
+
+.list1 ul{
+    list-style: none;
+    padding-left: 90px;
+}
+
+.list1 li{
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #707172;
+}
+
+.list2 ul{
+    list-style: none;
+    padding-left: 40px;
+}
+
+.list2 li{
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #707172;
+}
+
+.list2 h3, .list3 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: #626364;
+
+}
+
+.list3 ul{
+    list-style: none;
+
+}
+
+.list3 li{
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #707172;
+}
+
+.list4 ul{
+    list-style-type: none;
+}
+
+.list4 li{
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #626364;
+}
+
+#foot-3{
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid rgb(207, 205, 205);
+    background-color: rgb(240, 240, 240);
+    display: flex;
+}
+
+.ft-h6{
+    width: 50%;
+    height: 70px;
+}
+
+
+.ft-h6 h6{
+    padding-left: 90px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    color: #707172;
+}
+
+.ft-h5{
+    width: 50%;
+    height: 70px;
+}
+
+.ft-h5 h5{
+    width: 400px;
+    padding-left: 230px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    color: #707172;
+}
+
+
+
+
+
+
+
+
+
+
+
